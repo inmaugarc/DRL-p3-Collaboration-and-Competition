@@ -63,10 +63,10 @@ Then you create a Jupiter notebook kernel that can run the Unity environment pro
 
 
 a. Download the Unity environment 
-    Linux: click here: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip
-    Mac OSX: click here https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip
-    Windows (32-bit): click here https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip
-    Windows (64-bit): click here https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip
+    Linux: [click here] (https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
+    Mac OSX: [click here] (https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
+    Windows (32-bit): [click here] (https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
+    Windows (64-bit): [click here] (https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
 
 
 
@@ -90,19 +90,19 @@ Tennis.ipynb is a Jupyter notebook that can be used to train the multi-agent DDP
 
 The Trained Actor and Critic Networks
 
-checkpoint_actor1.pth contains the weights of the best actor 1 network 
-checkpoint_critic1.pth contains the weights of the best critic 1 network 
-checkpoint_actor2.pth contains the weights of the best actor 2 network 
-checkpoint_critic2.pth contains the weights of the best critic 2 network 
+- checkpoint_actor1.pth contains the weights of the best actor 1 network 
+- checkpoint_critic1.pth contains the weights of the best critic 1 network 
+- checkpoint_actor2.pth contains the weights of the best actor 2 network 
+- checkpoint_critic2.pth contains the weights of the best critic 2 network 
 
 7. Code Description
 
 The environment described above was solved using an actor-critic algorithm, specifically the multi-agent deep deterministic policy gradient (DDPG) method. All of the files below can be found in the code folder.
 Module Descriptions
 
-model.py defines the actor and critic networks
-agent.py defines the MDDPG agents
-replay_buffer.py defines the Replay Buffer 
+- model.py defines the actor and critic networks
+- agent.py defines the MDDPG agents
+- replay_buffer.py defines the Replay Buffer 
 
 
 
