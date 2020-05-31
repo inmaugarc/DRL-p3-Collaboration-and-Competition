@@ -1,8 +1,6 @@
 # Udacity_Deep_Reinforcement_Learning
 Code from Udacity DRL master course
-# Project Title
-
-Project 3 Collaboration & Competition
+# Project 3 Collaboration & Competition
 
 ## Getting Started
 
